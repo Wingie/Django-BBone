@@ -9,3 +9,5 @@ class VimeoUser(models.Model):
     is_pay = models.BooleanField(default=False)
     has_staff_pick = models.BooleanField(default=False)
     has_videos= models.BooleanField(default=False)
+    def __unicode__(self):
+        return self.display_name

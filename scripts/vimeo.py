@@ -12,7 +12,6 @@ oauth_hook = OAuthHook('86376506b569583a82adc0a3f179d051', \
 def vimeo_api(url):
     url = 'http://vimeo.com/' + url
     client = requests.session(hooks={'pre_request': oauth_hook})
-    # response = client.get('http://vimeo.com/api/rest/v2?format=json&method=vimeo.videos.getLikers&video_id=57125220')
     response = client.get(url)
     # print response.content
     return json.loads(response.content)
@@ -33,7 +32,7 @@ def usr_info(usr):
     response =  vimeo_api(url)
     res['user_name']  = response['person']['username']
     if response['person']['username'] == "user17234915":
-        return None ## wtf. Vimeo returns oauth account details instead of 404 for authenticated calls.
+        return None ## wtf. Vimeo returns my oauth account details instead of a 404 for authenticated calls.
     res['display_name']  = response['person']['display_name']
     res['page_url']  =response['person']['profileurl']
     res['is_plus'] = response['person']['is_plus']
@@ -65,5 +64,5 @@ def create_usr(usr):
 
 # export PYTHONPATH='/home/wingston/local/py/vimeo-py/';export DJANGO_SETTINGS_MODULE='proj.settings'
 if __name__ == '__main__':
-    print  "**",create_usr('ludsd')
+    print  "**",create_usr('robertoajovalasit')
     # print  "**",get_first_staffpick_or_none('eterea')
