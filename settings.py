@@ -7,7 +7,7 @@ TEMPLATE_DEBUG = DEBUG
 
 # TODO: Update the ADMINS list appropriately.
 ADMINS = (
-    ('Your Name', 'you@example.com'),
+    ('Wingston', 'wingston.sharon@gmail.com'),
 )
 
 MANAGERS = ADMINS
@@ -36,11 +36,12 @@ if 'VCAP_SERVICES' in os.environ:
 if not using_production_settings:
     DATABASES = {
         "default": {
-            "ENGINE": "django.db.backends.sqlite3",
-            "NAME": "dev.db",
-            "USER": "",
+            # "ENGINE": "django.db.backends.sqlite3",
+            "ENGINE": "django.db.backends.mysql",
+            "NAME": "vimeo_db",
+            "USER": "drupaluser",
             "PASSWORD": "",
-            "HOST": "",
+            "HOST": "localhost",
             "PORT": "",
             }
         }
@@ -106,11 +107,11 @@ STATICFILES_DIRS = (
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-#    'django.contrib.staticfiles.finders.DefaultStorageFinder',
+   'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
 # TODO: Make this unique, and don't share it with anybody.
-SECRET_KEY = 'TODO'
+SECRET_KEY = 'TOds87dsagd87sadt83ge2igr78tf7iy8g2di8isy]zc7t2f'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -151,6 +152,7 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     'django.contrib.admindocs',
     'app_name',
+    'vim',
 )
 
 # A sample logging configuration. The only tangible logging
