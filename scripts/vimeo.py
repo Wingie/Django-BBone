@@ -3,7 +3,7 @@ from oauth_hook import OAuthHook
 import requests
 import json
 from proj.vim.models import VimeoUser
-
+import time
 OAuthHook.consumer_key = '489e803878ab0be44d34b969d62a7b36a3129250'
 OAuthHook.consumer_secret = '43b7be9049034688351bdf5e8568d757949f93da'
 oauth_hook = OAuthHook('86376506b569583a82adc0a3f179d051', \
@@ -12,13 +12,18 @@ oauth_hook = OAuthHook('86376506b569583a82adc0a3f179d051', \
 def vimeo_api(url):
     url = 'http://vimeo.com/' + url
     client = requests.session(hooks={'pre_request': oauth_hook})
-    response = client.get(url)
+    headers = {
+    'User-Agent': 'Mozilla 3.12',
+    }
+    response = client.get(url,headers=headers)
     # print response.content
+    # print response.headers
     return json.loads(response.content)
 
 def get_first_staffpick_or_none(usr):
     url = '/api/rest/v2?format=json&method=vimeo.videos.getAll&user_id=%s' % usr
     response =  vimeo_api(url)
+    print "SFscan~",response['videos']['on_this_page']
     for vid in response['videos']['video']:
         u = "http://vimeo.com/channels/staffpicks/"+vid['id']
         r = requests.get(u)
@@ -50,9 +55,9 @@ def create_usr(usr):
     if VimeoUser.objects.filter(user_name=data['user_name']).count() != 0:
         return "User Already Exists."
     else:
-        usr = VimeoUser(display_name=data['display_name'].encode('utf-8'),\
-                                      user_name=data['user_name'].encode('utf-8'),\
-                                      page_url=data['page_url'].encode('utf-8'))
+        usr = VimeoUser(display_name=data['display_name'],\
+                                      user_name=data['user_name'],\
+                                      page_url=data['page_url'])
         if data['is_pro'] == "1" or data['is_plus'] == "1":
             usr.is_pay = True
         if data['number_of_videos'] != "0":
@@ -64,5 +69,14 @@ def create_usr(usr):
 
 # export PYTHONPATH='/home/wingston/local/py/vimeo-py/';export DJANGO_SETTINGS_MODULE='proj.settings'
 if __name__ == '__main__':
-    print  "**",create_usr('robertoajovalasit')
+    # print  "**",create_usr('robertoajovalasit')
     # print  "**",get_first_staffpick_or_none('eterea')
+    with open('usrlist_976.json', 'rb') as fp:
+        data = json.load(fp)
+        i = 1
+        for user_id in data[0:]: #
+            print i
+            print create_usr(user_id)
+            i+=1
+            time.sleep(22+i%5)
+        
