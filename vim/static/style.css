@@ -1,0 +1,37 @@
+body{
+	background: #a7cfdf; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #a7cfdf 0%, #23538a 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#a7cfdf), color-stop(100%,#23538a)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #a7cfdf 0%,#23538a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #a7cfdf 0%,#23538a 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #a7cfdf 0%,#23538a 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #a7cfdf 0%,#23538a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+h1 {
+	font: 120px 'Ubuntu', sans-serif;
+	text-align: center;
+	color: #FAFFEA;
+	 text-shadow: 0 1px 0  #ccc,
+	 0 4px 0 #c9c9c9,
+	 0 5px 0 #bbb,
+	 0 6px 0 #b9b9b9,
+	 0 7px 0 #aaa,
+	 0 8px 1px rgba(0,0,0,.1),
+	 0 0 5px rgba(0,0,0,.1),
+	 0 1px 3px rgba(0,0,0,.3),
+	 0 3px 5px rgba(0,0,0,.2),
+	 0 5px 10px rgba(0,0,0,.25),
+	 0 10px 10px rgba(0,0,0,.2),
+	 0 20px 20px rgba(0,0,0,.15);
+	 /*Transition*/ -webkit-transition: all 0.9s ease; -moz-transition: all 0.9s ease; -o-transition: all 0.9s ease;;
+}
+
+h1:hover{
+	 /*Glow*/ -webkit-box-shadow: 0px 0px 40px rgba(255,255,255,0.8); -moz-box-shadow: 0px 0px 40px rgba(255,255,255,0.8); box-shadow: 0px 0px 40px rgba(255,255,255,0.8); 
+	  -moz-border-radius: 120px;
+    -webkit-border-radius: 120px;
+    -khtml-border-radius: 120px;
+    border-radius: 120px;
+}

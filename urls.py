@@ -9,10 +9,10 @@ admin.autodiscover()
 urlpatterns = []
 
 # app_name Patterns
-urlpatterns += patterns('app_name.views',
+urlpatterns += patterns('vim.views',
     # Place your patterns here
-    url(r'^$', 'signup_view'),
-    url(r'^thanks/$', direct_to_template, {'template': 'sample.html'}),
+    # url(r'^$', 'signup_view'),
+    url(r'^$', direct_to_template, {'template': 'home.html'}),
 )
 
 urlpatterns += patterns('vim.api',

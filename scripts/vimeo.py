@@ -72,10 +72,10 @@ def create_usr(usr):
 if __name__ == '__main__':
     # print  "**",create_usr('robertoajovalasit')
     # print  "**",get_first_staffpick_or_none('eterea')
-    with open('usrlist_976.json', 'rb') as fp:
+    with open('usrlist_7288.json', 'rb') as fp:
         data = json.load(fp)
         i = 1
-        for user_id in data[917:]: #
+        for user_id in data[0:]: #
             print i
             print create_usr(user_id)
             i+=1
