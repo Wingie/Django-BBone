@@ -78,7 +78,7 @@ if __name__ == '__main__':
     with open('usrlist_7288.json', 'rb') as fp:
         data = json.load(fp)
         i = 1
-        for user_id in data[1326:]: #
+        for user_id in data[1792:]: # 120
             print i
             print create_usr(user_id)
             i+=1

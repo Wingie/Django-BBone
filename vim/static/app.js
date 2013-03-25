@@ -18,12 +18,14 @@ app.collection.usrList = Backbone.Collection.extend({
     	},
     	retrieve: function(){
     		self = this;
-    		this.fetch({success:function(){
+
+    		this.fetch({success:function(){   
+                                                                            $('#count').html(self.count+" Results");
     						self.id.children().remove();
 			    			self.each(function(u){
 			    				self.id.append(new app.collection.usrListItemView({model:u}).render().el);
 			    			});
-    		  		    }
+    		              }
     	   });
     	}//end retrieve
 });

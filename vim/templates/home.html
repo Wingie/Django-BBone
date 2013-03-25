@@ -1,17 +1,40 @@
 {% extends 'base.html' %}
 
-{% block pagetitle %}Template{% endblock %}
+{% block pagetitle %}VimeoDB{% endblock %}
 
 {% block primary %}
 
 <h1> VimeoDB </h1>
+<div id="searchField"></div>
+
+<div id="count">Loading..</div>
 
 <div id="searchResults" class="searchResultsHolder" height="900px">
 <ul class="searchDisplay"></ul>
 </div>
 
 <script id="usrTemplate" type="text/template">
-    <%=display_name%>
+    <div class="container_block">
+    <p><a href="<%=page_url%>"><%=display_name%> ( <%=user_name%> ) </a></p>
+    <% if (is_pay == true) { %>
+    	<p> <a class="btn disabled" href="javascript:void(0)"><i class="icon-ok"></i></a> Paying</p>
+    <% } else  {%>
+    	<p> <a class="btn disabled" href="javascript:void(0)"><i class="icon-remove"></i></a> Not Paying</p>
+    <% } %>
+
+    <% if (has_staff_pick == true) { %>
+    	<p> <a class="btn disabled" href="javascript:void(0)"><i class="icon-ok"></i></a> Has Staff Pick </p>
+    <% } else  {%>
+    	<p> <a class="btn disabled" href="javascript:void(0)"><i class="icon-remove"></i></a> No Staff Pick</p>
+    <% } %>
+
+    <% if (has_videos== true) { %>
+    	<p> <a class="btn disabled" href="javascript:void(0)"><i class="icon-ok"></i></a> Has Uploaded </p>
+    <% } else  {%>
+    	<p> <a class="btn disabled" href="javascript:void(0)"><i class="icon-remove"></i></a> Has Not Uploaded</p>
+    <% } %>
+
+    </div>
 </script>
 
 {% endblock %}
@@ -20,7 +43,6 @@
 
 <script type="text/javascript">
 var items = new app.collection.usrList();
-// var usrView = new app.collection.usrListView({collection:items});
 
 $(document).ready(function () {
   items.retrieve();

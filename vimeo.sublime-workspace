@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"apn",
+				"append"
+			],
+			[
+				"ext",
+				"extend"
+			],
+			[
+				"ja",
+				"javascript:save"
+			],
+			[
+				"c",
+				"count"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"Vim",
+				"VimeoUser"
+			],
+			[
+				"V",
+				"VimeoUser"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
 				"reque",
 				"requests"
 			],
@@ -30,10 +66,6 @@
 			[
 				"S",
 				"staffpicks"
-			],
-			[
-				"res",
-				"response"
 			],
 			[
 				"ori",
@@ -144,34 +176,10 @@
 			}
 		},
 		{
-			"file": "vim/admin.py",
-			"settings":
-			{
-				"buffer_size": 85,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app_name/templates/base.html",
-			"settings":
-			{
-				"buffer_size": 428,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "scripts/vimeo.py",
 			"settings":
 			{
-				"buffer_size": 2817,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scripts/crawler.py",
-			"settings":
-			{
-				"buffer_size": 1066,
+				"buffer_size": 3284,
 				"line_ending": "Unix"
 			}
 		},
@@ -184,10 +192,77 @@
 			}
 		},
 		{
-			"file": "scripts/__init__.py",
+			"file": "requirements.txt",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 20,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "urls.py",
+			"settings":
+			{
+				"buffer_size": 1067,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vim/api.py",
+			"settings":
+			{
+				"buffer_size": 894,
+				"line_ending": "Unix",
+				"name": "p"
+			}
+		},
+		{
+			"file": "vim/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 933,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vim/templates/home.html",
+			"settings":
+			{
+				"buffer_size": 568,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vim/static/app.js",
+			"settings":
+			{
+				"buffer_size": 1019,
+				"line_ending": "Unix",
+				"name": "$(function(){"
+			}
+		},
+		{
+			"file": "vim/static/style.css",
+			"settings":
+			{
+				"buffer_size": 1654,
+				"line_ending": "Unix",
+				"name": "a"
+			}
+		},
+		{
+			"file": "/media/Personal/Work/Styloot/fashiondb/templates/recommend/review.html",
+			"settings":
+			{
+				"buffer_size": 4393,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/Personal/Work/Styloot/fashiondb/static/js/styloot/styloot.recommend.js",
+			"settings":
+			{
+				"buffer_size": 2065,
 				"line_ending": "Unix"
 			}
 		}
@@ -276,6 +351,18 @@
 	},
 	"file_history":
 	[
+		"/media/Personal/Work/Styloot/fashiondb/templates/base_wingie.html",
+		"/media/Personal/Work/Styloot/fashiondb/static/js/styloot/styloot.shop.js",
+		"/home/wingston/local/py/vimeo-py/proj/vim/admin.py",
+		"/home/wingston/local/py/vimeo-py/proj/app_name/templates/base.html",
+		"/home/wingston/local/py/vimeo-py/proj/scripts/crawler.py",
+		"/home/wingston/local/py/vimeo-py/proj/scripts/__init__.py",
+		"/home/wingston/local/py/vimeo-py/proj/static/bootstrap/css/bootstrap.css",
+		"/home/wingston/local/py/vimeo-py/proj/static/app_name/views.py",
+		"/media/Personal/Work/Styloot/fashiondb/scrape/handlers.py",
+		"/media/Personal/Work/Styloot/fashiondb/scrape/apiurls.py",
+		"/media/Personal/Work/Styloot/fashiondb/urls.py",
+		"/media/Personal/Work/Styloot/fashiondb/matching/handlers.py",
 		"/home/wingston/local/py/vimeo-py/proj/vim/models.py",
 		"/home/wingston/local/py/vimeo-py/proj/vim/views.py",
 		"/home/wingston/local/py/vimeo-py/vimeo.py",
@@ -295,15 +382,12 @@
 		"/media/Personal/Work/Styloot/fashiondb/recommend/handlers.py",
 		"/media/Personal/Work/Styloot/fashiondb/scripts/test_url.py",
 		"/media/Personal/Work/Styloot/fashiondb/misc_pages/urls.py",
-		"/media/Personal/Work/Styloot/fashiondb/static/js/styloot/styloot.shop.js",
-		"/media/Personal/Work/Styloot/fashiondb/matching/handlers.py",
 		"/media/Personal/Work/Styloot/fashiondb/templates/misc/url_maker.html",
 		"/media/Personal/Work/Styloot/fashiondb/templates/recommend/evaluation.html",
 		"/media/Personal/Work/Styloot/fashiondb/scripts/mixpanel.py",
 		"/media/Personal/Work/Styloot/fashiondb/templates/baseWOheader.html",
 		"/media/Personal/Work/Styloot/fashiondb/shop/urls.py",
 		"/media/Personal/Work/Styloot/fabfile/conf_wingie.py",
-		"/media/Personal/Work/Styloot/fashiondb/urls.py",
 		"/home/wingston/Downloads/urls2.py",
 		"/home/wingston/Downloads/urls1.py",
 		"/media/Personal/Work/Styloot/remote_config/nginx/nginx.conf",
@@ -353,13 +437,11 @@
 		"/media/Personal/Work/Styloot/fashiondb/templates/registration/register_caimpaign.html",
 		"/media/Personal/Work/Styloot/fashiondb/settings/static_content.py",
 		"/media/Personal/Work/Styloot/fashiondb/shop/models.py",
-		"/media/Personal/Work/Styloot/fashiondb/scrape/apiurls.py",
 		"/media/Personal/Work/Styloot/fashiondb/scrape/urls.py",
 		"/media/Personal/Work/Styloot/fashiondb/product/serialized.py",
 		"/media/Personal/Work/Styloot/fashiondb/product/recommendation/__init__.py",
 		"/media/Personal/Work/Styloot/fashiondb/product/views.py",
 		"/media/Personal/Work/Styloot/fashiondb/my_closet/handlers.py",
-		"/media/Personal/Work/Styloot/fashiondb/scrape/handlers.py",
 		"/media/Personal/Work/Styloot/fashiondb/product/recommendation/recommendation.py",
 		"/media/Personal/Work/Styloot/fashiondb/scripts/scrape/test_size_scrape.py",
 		"/media/Personal/Work/Styloot/fashiondb/product/urls.py",
@@ -396,14 +478,7 @@
 		"/media/Personal/Work/Styloot/fashiondb/scripts/scrape/__init__.py",
 		"/media/Personal/Work/Styloot/fashiondb/scripts/scrape/affiliate_parser/load_pj_feed.pyc",
 		"/media/Personal/Work/scrap/queue.py",
-		"/media/Personal/Work/Styloot/fashiondb/templates/matching/scoreboard2.html",
-		"/media/Personal/Work/Styloot/fashiondb/scripts/scrape/affiliate_parser/load_ls_feed.py",
-		"/media/Personal/Work/Styloot/fashiondb/matching/populate_images.sh",
-		"/home/wingston/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
-		"/media/Personal/Work/Styloot/remote_config/worker/crontab",
-		"/media/Personal/Work/Styloot/remote_config/worker/daily/tasks",
-		"/media/Personal/Work/Styloot/fashiondb/featured/models.py",
-		"/media/Personal/Work/Styloot/fashiondb/templates/matching/color_matching_check.html"
+		"/media/Personal/Work/Styloot/fashiondb/templates/matching/scoreboard2.html"
 	],
 	"find":
 	{
@@ -423,6 +498,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"();\n",
+			"search",
+			"\n<",
+			"<p>fdfd</p>",
+			"first_name",
 			"staff",
 			")\n",
 			"display_debug",
@@ -545,12 +625,7 @@
 			"statsdir",
 			"itemModalViewThumbnailTemplate",
 			"openModal",
-			"from BeautifulSoup import BeautifulSoup, Comment\nimport requests\nimport argparse\nimport os\nimport re\nfrom fashiondb.scrape.parsers import *\nfrom django.utils.encoding import force_unicode\n\nfrom fashiondb.scrape.models import VendorWrapper\nfrom fashiondb.scrape.models import LearnedAttribute\nfrom fashiondb.scrape.models import AttributeMapping\nfrom fashiondb.scrape.models import WrapperTemplate\nimport fashiondb.utils.web_utils as web_utils\n\nclass Wrapper:\n    def __init__(self,tag_name,wrapper_path,content, depth, extract_rule = None):\n        self.tag_name = tag_name\n        self.wrapper_path = wrapper_path\n        self.depth = depth\n        self.content = content\n        self.extract_rule = extract_rule\n\nclass GenericParser():\n    def error_distance(self,s1, s2):\n        l1 = len(s1)\n        l2 = len(s2)\n        m = [range(l1 + 1)] * (l2 + 1)\n        for i in range(l2 + 1):\n            m[i] = range(i,i + l1 + 1)\n        for i in range(0,l2):\n            for j in range(0,l1):\n                if s1[j] == s2[i]:\n                    m[i+1][j+1] = min(m[i+1][j] + 1, m[i][j+1] + 1, m[i][j])\n                else:\n                    m[i+1][j+1] = min(m[i+1][j] + 1, m[i][j+1] + 1, m[i][j] + 1)\n        return m[l2][l1]\n\n    def find_best_match(self,reference, tag_name, threshold = 0.1):\n        matched_score = 100\n        matched_path = []\n        reference = reference[:reference.find(tag_name)]\n        ref_len = len(reference)\n\n        self.n_list = []\n        for p in self.list:\n            self.n_list.append ( (p, abs(ref_len - len(p)) ) )\n        self.sorted_n_list = sorted(self.n_list, key = lambda x:x[1])\n        \n        for ps in self.sorted_n_list:\n            p = ps[0]\n            pn = p[1:p.find('__:')]\n            pn_len = len(pn)\n            i=0\n            \n            for i in range(ref_len) :\n                if( i == pn_len or   reference[i] != pn[i]) :\n                    break\n            \n            reference1 = reference[i:]\n            pn1 = pn[i:]\n            r1l = len(reference1)\n            p1l = len(pn1)\n            diff = max(r1l,p1l) - min(r1l,p1l)\n            \n            if float(diff)/float( pn_len + ref_len) > threshold:\n               continue\n           \n            distance = self.error_distance(reference1, pn1)\n            score = float(2*distance)/float( pn_len + ref_len)\n            \n            if(score > threshold):\n                continue\n            \n            threshold = score\n            if matched_score == score :\n                matched_path.append(p)\n            if matched_score > score :\n                matched_score = score\n                matched_path = [p]\n\n        if(matched_score > threshold) :\n            return None\n        return (matched_path, matched_score)\n            \n    def apply_wrapper(self,node,depth  ):\n        if(node is not None) and hasattr(node, 'name'):\n            cs = node.contents\n            if(len(cs) == 0) :\n                return (\"\",node,0)\n            if(len(self.pathinfo)== 0) :\n                self.pathinfo.append(\"\")\n                self.pathinfo.append(0)\n    \n            if( node.name != '[document]'):\n                clsAttribute = \"\"\n                idAttribute = \"\"\n                if node.has_key('class'):\n                    clsAttribute = node['class']\n                if node.has_key('id'):\n                    idAttribute = node['id']        \n                    \n                clsAttrib = ''    \n                idAttrib = ''\n                if(clsAttribute.strip() != '') :    \n                    if clsAttribute in self.unique_map:\n                        clsAttrib = self.unique_map[clsAttribute]\n                    else :\n                        newID = len(self.unique_map)\n                        self.unique_map[clsAttribute] = newID\n                        clsAttrib = newID\n        \n                if( idAttribute.strip() != '') :\n                    if idAttribute in self.unique_map:\n                        idAttrib = self.unique_map[idAttribute]\n                    else :\n                        newID = len(self.unique_map)\n                        self.unique_map[idAttribute] = newID\n                        idAttrib = newID\n    \n                if int(self.pathinfo[1]) > (depth-3) and  int(self.pathinfo[1]) < (depth+1):            \n                    self.pathinfo[0] =  self.pathinfo[0] + \"/\" + node.name + \"[c\" + clsAttribute + \" i\" + idAttribute +\"]\"\n                else :            \n                    self.pathinfo[0] =  self.pathinfo[0] + \"/\" + node.name + \"[c\" + str(clsAttrib) + \" i\" + str(idAttrib) +\"]\"\n                self.pathinfo[1] = self.pathinfo[1] + 1\n    \n                if len(self.pathinfo ) > 0 and int(self.pathinfo[1]) > (depth-1) and  int(self.pathinfo[1]) < (depth+1):\n                    newinfo = [self.pathinfo[0], self.pathinfo[1]]\n                    self.list.append(str(newinfo[0]) + \"__:\" + str( self.stlid) )\n                    node['sid'] = str(self.stlid) \n                    self.stlid = self.stlid+1\n            \n            for child in cs:\n                self.apply_wrapper(child,depth)\n            \n            self.pathinfo[1] = self.pathinfo[1] - 1\n            self.pathinfo[0] = self.pathinfo[0][:self.pathinfo[0].rfind('/')] \n            \n    \n    def extract_field(self, bs,matched_path):\n        tag = matched_path[matched_path.rfind('/'):]\n        node_id = tag[tag.rfind('__:'):].replace('__:','')\n        node = tag[:tag.find('[')].replace('/','')\n        extract_node = bs.find(node, sid=node_id)\n        return extract_node\n    \n    def apply_extract_size(self,field, rules):\n        exclusion_rule = None\n        rule = None\n        extracted_value = None\n\n        if(rules is not None):\n            for r in rules.split('!@#$'):\n                if r.startswith(\"excl\"):\n                    exclusion_rule = r\n                else:\n                    rule = r\n        if(rule==None):\n            rule=''\n        r = rule.split('_____')\n        if(len(r) == 1) :\n            if (r[0] == 'list'):                    ## list is csv of sizes\n                s = ''.join(field.findAll(text=True))\n                s = s.replace('\\n',',') \n                extracted_value = str(s)\n        else :\n            if(r[0] == 'list'): ## r[0] is list, r[1] is substr that ends descript txt, \n                if(r[1].startswith('delimit')) :\n                    sp = r[2].split('##')\n                    first = sp[0]\n                    try:\n                        dlim = sp[1]\n                    except:\n                        dlim = None\n                    s = ''.join(field.findAll(text=True)) \n                    s = s.replace('\\n',',') if s.count('\\n') > s.count(' ') else s.replace(' ',',')\n                    pos = s.find(first)\n                    s = s[pos+len(first):]\n                    extracted_value = str(s)\n\n        if '(' in extracted_value or ')' in extracted_value:\n            extracted_value = re.sub(r'\\([^)]*\\)', '', extracted_value).replace('\\n','') ##removing any brackets+content\n        return extracted_value\n    \n    def apply_extract_rule(self,field, rules):\n        exclusion_rule = None\n        rule = None\n        if(rules is not None):\n            for r in rules.split('!@#$'):\n                if r.startswith(\"excl\"):\n                    exclusion_rule = r\n                else:\n                    rule = r            \n            \n        if(rule==None):\n            rule=''\n        r = rule.split('_____')\n        extracted_value = None\n\n        if(len(r) == 1) :\n            extracted_value = ''.join(field.findAll(text=True)).strip()\n\n        if len(r) == 3 :\n            if(r[0] == 'attribute') :\n                aElems = field.findAll(r[1])\n                for elem in aElems:\n                    if(r[2].find('***') > 0) :\n                        embed_rule = r[2].split('***')\n                        if elem.has_key(embed_rule[0]) :\n                            extracted_value = elem.get(embed_rule[0])\n                        for rl in embed_rule[1].split(','):\n                            extracted_value = extracted_value.replace(rl.split('=')[0],rl.split('=')[1])    \n                    else :\n                        if elem.has_key(r[2]) :\n                            extracted_value = elem.get(r[2])\n                            if(extracted_value is not None) :\n                                break;\n\n            if(r[0] == 'value') :\n                if(r[1].startswith('delimit')) :\n                    sp = r[2].split('##')\n                    pos = 0\n                    dlim = r[2] \n                    if(len(sp) ==2):\n                        pos = int(sp[1])\n                        dlim = sp[0]\n                        \n                    s = ''    \n                    if(r[1].endswith('solo')) :    \n                        current = field.contents\n                        for c in current :\n                            if c is not None and str(type(c)).find('NavigableString') > 0:\n                                s =  s + ' ' + c.strip()    \n                    else :\n                        s = ''.join(field.findAll(text=True))    \n                    s = s.strip().lower().split(dlim)\n                    \n                    if(len(s) > 1):\n                        extracted_value=s[pos].strip()\n                    elif(len(s) == 1) :     \n                        extracted_value=s[0].strip()\n                if(r[1] == 'solo') :\n                    current = field.contents\n                    extracted_value = ''\n                    for c in current :\n                        if c is not None and str(type(c)).find('NavigableString') > 0:\n                            extracted_value =  extracted_value + ' ' + c.strip()\n                if(r[1] == 'equals') :\n                    s = str(''.join(force_unicode(field.findAll(text=True)))).strip().upper().replace(' ', '')\n                    if(s == r[2].strip().upper().replace(' ', '')):\n                        extracted_value='True'\n                    else :        \n                        extracted_value='False'\n                if(r[1] == 'nequals') :\n                    s = str(''.join(force_unicode(field.findAll(text=True)))).strip().upper().replace(' ', '')\n                    if(s == r[2].strip().upper().replace(' ', '')):\n                        extracted_value='False'\n                    else :        \n                        extracted_value='True'\n                if(r[1] == 'containsTrue') :\n                    s = str(''.join(force_unicode(field.findAll(text=True)))).strip().upper().replace(' ', '')\n                    if(s.find(r[2].strip().upper().replace(' ', '')) >=0 ):\n                        extracted_value='True'\n                    else :        \n                        extracted_value='False'        \n                if(r[1] == 'containsFalse') :\n                    s = str(''.join(force_unicode(field.findAll(text=True)))).strip().upper().replace(' ', '')\n                    if(s.find(r[2].strip().upper().replace(' ', '')) >=0 ):\n                        extracted_value='False'\n                    else :        \n                        extracted_value='True'        \n        \n        if(exclusion_rule != None):\n            r = exclusion_rule.split('_____')\n            if len(r) == 3 :\n                if(r[1] == 'startswith'):\n                    if(extracted_value.lower().startswith(r[2].lower())):\n                        extracted_value = ''\n        \n        return extracted_value                \n            \n    def price_clean_up(self,price):\n        new_price = re.sub(r'[^0-9\\.\\,]', '',price )\n        pattern = re.compile('[0-9\\.\\,]+\\,[0-9][0-9]$')\n        if( pattern.match(new_price) is not None  ):\n            new_price = new_price[0:new_price.rfind(',')] + \".\" + new_price[new_price.find(',')+1:]\n        else :\n            new_price = re.sub(r'[^0-9\\.]', '',new_price )\n        if re.sub(r'[^0-9\\.\\,]', '',new_price ).strip() == 0:\n            return ''   \n        return new_price\n\n    def clean_image_url(self,web_url,image_url):\n        image_url = image_url.strip()\n        web_url = web_url.strip()\n        if(image_url.startswith('/')) :\n            web_url = web_url.replace('http://' , '')\n            image_url = web_url[:web_url.find('/')] + image_url\n        if not image_url.startswith('http:'):\n            image_url = 'http://' + image_url\n        return image_url\n    \n    \n    def identify_data_regions(self, soup, vendor_wrapper):\n        for s in soup('script') :\n            s.extract()\n    \n        comments = soup.findAll(text=lambda text:isinstance(text, Comment))\n        for s in comments :\n            s.extract()\n                \n        self.stlid = 0\n        res_map = {}        \n        \n        learned_attribute_list = LearnedAttribute.objects.filter(learning_wrapper = vendor_wrapper)\n        attrib_map =  AttributeMapping.objects.filter(learning_wrapper = vendor_wrapper)\n        \n        self.unique_map={}\n\n        if len(attrib_map) >0 and attrib_map[0] is not None and attrib_map[0].mapping is not None:\n            for ln in attrib_map[0].mapping.split('\\n'):\n                s = ln.split('\\t')\n                if len(s) == 2:\n                    self.unique_map[s[0]] = s[1]\n        \n        for learned_attribute in learned_attribute_list:    \n            self.list=[]\n            self.pathinfo=[]\n            self.apply_wrapper(soup, int(learned_attribute.depth) )\n            matched_path = self.find_best_match(learned_attribute.path,learned_attribute.attribute.name)\n            result = None\n            if(matched_path is None):\n                continue\n            for matched in matched_path[0] : \n                extracted_node = self.extract_field(soup, matched)\n\n                if result is None:\n                    result = ''\n                if(learned_attribute.attribute.name == 'styloot_size'):\n                    extract = None\n                    if learned_attribute.rule is not None :\n                        for ext_rule in learned_attribute.rule.split(',,,'):\n                            if(extract is None):\n                                  extract = self.apply_extract_size(extracted_node, ext_rule)\n                            else :\n                               extract = self.apply_extract_size(extract, ext_rule)\n                    else :\n                        extract = self.apply_extract_size(extracted_node, learned_attribute.rule)\n                    if extract is not None :\n                        if(result.strip() == '' or learned_attribute.rule != 'stop' ):\n                            result = result + ' ' + extract\n                elif(result.strip() == '' or learned_attribute.attribute.name != 'styloot_image'):\n                    extract = None\n                    if learned_attribute.rule is not None :\n                        for ext_rule in learned_attribute.rule.split(',,,'):\n                            if(extract is None):\n                                  extract = self.apply_extract_rule(extracted_node, ext_rule)\n                            else :\n                               extract = self.apply_extract_rule(extract, ext_rule)\n                    else :\n                        extract = self.apply_extract_rule(extracted_node, learned_attribute.rule)\n                    if extract is not None :\n                        if(result.strip() == '' or learned_attribute.rule != 'stop' ):\n                            result = result + ' ' + extract\n            if(result is not None and result.strip() != '' and float(matched_path[1]) < float(.1) ) :\n                if  ( learned_attribute.attribute.name not in  res_map.keys()) or ( float(res_map[learned_attribute.attribute.name][1]) >  float(matched_path[1] )  ) :\n                    if (learned_attribute.attribute.name == 'styloot_mrp' or learned_attribute.attribute.name == 'styloot_price'):\n                        prs = self.price_clean_up(result.strip())\n                        if(prs.startswith('.') == False):\n                            try:\n                                val = float(prs)\n                                if val == 0.0:\n                                    prs = ''\n                                res_map[learned_attribute.attribute.name] = [prs,matched_path[1]]\n                            except Exception as e:\n                                pass\n                    elif learned_attribute.attribute.name == 'styloot_size':\n                        #print '********'\n                        res_map[learned_attribute.attribute.name] = [result.strip(),matched_path[1]] \n                    else:\n                        res_map[learned_attribute.attribute.name] = [result.strip(),matched_path[1]]\n           #print learned_attribute.attribute.name,result,extract\n\n        if('styloot_image' in res_map.keys() ):\n            res_map['styloot_image'][0] = self.clean_image_url(vendor_wrapper.vendor.url , res_map['styloot_image'][0])\n                        \n        return res_map\n    \nif __name__==\"__main__\":\n\n    # Get Test Page\n    scrape_result = web_utils.get('http://www.shopbop.com/open-back-ruched-dress-zac/vp/v=1/845524441954344.htm?folderID=2534374302063518&fm=other-shopbysize-viewall&colorId=11907')\n    soup = BeautifulSoup(scrape_result.content, convertEntities=BeautifulSoup.HTML_ENTITIES)\n    \n    gp = GenericParser()\n    vw = VendorWrapper.objects.filter(source__name__startswith='')[0]\n    res_map = gp.identify_data_regions(soup,vw)\n    for k in res_map.keys():\n        print k + \"\\t\" + res_map[k][0] \n",
-			"extract_field",
-			"apply_extract_size",
-			"learned_attribute",
-			"rule",
-			"(',,,'):\n"
+			"from BeautifulSoup import BeautifulSoup, Comment\nimport requests\nimport argparse\nimport os\nimport re\nfrom fashiondb.scrape.parsers import *\nfrom django.utils.encoding import force_unicode\n\nfrom fashiondb.scrape.models import VendorWrapper\nfrom fashiondb.scrape.models import LearnedAttribute\nfrom fashiondb.scrape.models import AttributeMapping\nfrom fashiondb.scrape.models import WrapperTemplate\nimport fashiondb.utils.web_utils as web_utils\n\nclass Wrapper:\n    def __init__(self,tag_name,wrapper_path,content, depth, extract_rule = None):\n        self.tag_name = tag_name\n        self.wrapper_path = wrapper_path\n        self.depth = depth\n        self.content = content\n        self.extract_rule = extract_rule\n\nclass GenericParser():\n    def error_distance(self,s1, s2):\n        l1 = len(s1)\n        l2 = len(s2)\n        m = [range(l1 + 1)] * (l2 + 1)\n        for i in range(l2 + 1):\n            m[i] = range(i,i + l1 + 1)\n        for i in range(0,l2):\n            for j in range(0,l1):\n                if s1[j] == s2[i]:\n                    m[i+1][j+1] = min(m[i+1][j] + 1, m[i][j+1] + 1, m[i][j])\n                else:\n                    m[i+1][j+1] = min(m[i+1][j] + 1, m[i][j+1] + 1, m[i][j] + 1)\n        return m[l2][l1]\n\n    def find_best_match(self,reference, tag_name, threshold = 0.1):\n        matched_score = 100\n        matched_path = []\n        reference = reference[:reference.find(tag_name)]\n        ref_len = len(reference)\n\n        self.n_list = []\n        for p in self.list:\n            self.n_list.append ( (p, abs(ref_len - len(p)) ) )\n        self.sorted_n_list = sorted(self.n_list, key = lambda x:x[1])\n        \n        for ps in self.sorted_n_list:\n            p = ps[0]\n            pn = p[1:p.find('__:')]\n            pn_len = len(pn)\n            i=0\n            \n            for i in range(ref_len) :\n                if( i == pn_len or   reference[i] != pn[i]) :\n                    break\n            \n            reference1 = reference[i:]\n            pn1 = pn[i:]\n            r1l = len(reference1)\n            p1l = len(pn1)\n            diff = max(r1l,p1l) - min(r1l,p1l)\n            \n            if float(diff)/float( pn_len + ref_len) > threshold:\n               continue\n           \n            distance = self.error_distance(reference1, pn1)\n            score = float(2*distance)/float( pn_len + ref_len)\n            \n            if(score > threshold):\n                continue\n            \n            threshold = score\n            if matched_score == score :\n                matched_path.append(p)\n            if matched_score > score :\n                matched_score = score\n                matched_path = [p]\n\n        if(matched_score > threshold) :\n            return None\n        return (matched_path, matched_score)\n            \n    def apply_wrapper(self,node,depth  ):\n        if(node is not None) and hasattr(node, 'name'):\n            cs = node.contents\n            if(len(cs) == 0) :\n                return (\"\",node,0)\n            if(len(self.pathinfo)== 0) :\n                self.pathinfo.append(\"\")\n                self.pathinfo.append(0)\n    \n            if( node.name != '[document]'):\n                clsAttribute = \"\"\n                idAttribute = \"\"\n                if node.has_key('class'):\n                    clsAttribute = node['class']\n                if node.has_key('id'):\n                    idAttribute = node['id']        \n                    \n                clsAttrib = ''    \n                idAttrib = ''\n                if(clsAttribute.strip() != '') :    \n                    if clsAttribute in self.unique_map:\n                        clsAttrib = self.unique_map[clsAttribute]\n                    else :\n                        newID = len(self.unique_map)\n                        self.unique_map[clsAttribute] = newID\n                        clsAttrib = newID\n        \n                if( idAttribute.strip() != '') :\n                    if idAttribute in self.unique_map:\n                        idAttrib = self.unique_map[idAttribute]\n                    else :\n                        newID = len(self.unique_map)\n                        self.unique_map[idAttribute] = newID\n                        idAttrib = newID\n    \n                if int(self.pathinfo[1]) > (depth-3) and  int(self.pathinfo[1]) < (depth+1):            \n                    self.pathinfo[0] =  self.pathinfo[0] + \"/\" + node.name + \"[c\" + clsAttribute + \" i\" + idAttribute +\"]\"\n                else :            \n                    self.pathinfo[0] =  self.pathinfo[0] + \"/\" + node.name + \"[c\" + str(clsAttrib) + \" i\" + str(idAttrib) +\"]\"\n                self.pathinfo[1] = self.pathinfo[1] + 1\n    \n                if len(self.pathinfo ) > 0 and int(self.pathinfo[1]) > (depth-1) and  int(self.pathinfo[1]) < (depth+1):\n                    newinfo = [self.pathinfo[0], self.pathinfo[1]]\n                    self.list.append(str(newinfo[0]) + \"__:\" + str( self.stlid) )\n                    node['sid'] = str(self.stlid) \n                    self.stlid = self.stlid+1\n            \n            for child in cs:\n                self.apply_wrapper(child,depth)\n            \n            self.pathinfo[1] = self.pathinfo[1] - 1\n            self.pathinfo[0] = self.pathinfo[0][:self.pathinfo[0].rfind('/')] \n            \n    \n    def extract_field(self, bs,matched_path):\n        tag = matched_path[matched_path.rfind('/'):]\n        node_id = tag[tag.rfind('__:'):].replace('__:','')\n        node = tag[:tag.find('[')].replace('/','')\n        extract_node = bs.find(node, sid=node_id)\n        return extract_node\n    \n    def apply_extract_size(self,field, rules):\n        exclusion_rule = None\n        rule = None\n        extracted_value = None\n\n        if(rules is not None):\n            for r in rules.split('!@#$'):\n                if r.startswith(\"excl\"):\n                    exclusion_rule = r\n                else:\n                    rule = r\n        if(rule==None):\n            rule=''\n        r = rule.split('_____')\n        if(len(r) == 1) :\n            if (r[0] == 'list'):                    ## list is csv of sizes\n                s = ''.join(field.findAll(text=True))\n                s = s.replace('\\n',',') \n                extracted_value = str(s)\n        else :\n            if(r[0] == 'list'): ## r[0] is list, r[1] is substr that ends descript txt, \n                if(r[1].startswith('delimit')) :\n                    sp = r[2].split('##')\n                    first = sp[0]\n                    try:\n                        dlim = sp[1]\n                    except:\n                        dlim = None\n                    s = ''.join(field.findAll(text=True)) \n                    s = s.replace('\\n',',') if s.count('\\n') > s.count(' ') else s.replace(' ',',')\n                    pos = s.find(first)\n                    s = s[pos+len(first):]\n                    extracted_value = str(s)\n\n        if '(' in extracted_value or ')' in extracted_value:\n            extracted_value = re.sub(r'\\([^)]*\\)', '', extracted_value).replace('\\n','') ##removing any brackets+content\n        return extracted_value\n    \n    def apply_extract_rule(self,field, rules):\n        exclusion_rule = None\n        rule = None\n        if(rules is not None):\n            for r in rules.split('!@#$'):\n                if r.startswith(\"excl\"):\n                    exclusion_rule = r\n                else:\n                    rule = r            \n            \n        if(rule==None):\n            rule=''\n        r = rule.split('_____')\n        extracted_value = None\n\n        if(len(r) == 1) :\n            extracted_value = ''.join(field.findAll(text=True)).strip()\n\n        if len(r) == 3 :\n            if(r[0] == 'attribute') :\n                aElems = field.findAll(r[1])\n                for elem in aElems:\n                    if(r[2].find('***') > 0) :\n                        embed_rule = r[2].split('***')\n                        if elem.has_key(embed_rule[0]) :\n                            extracted_value = elem.get(embed_rule[0])\n                        for rl in embed_rule[1].split(','):\n                            extracted_value = extracted_value.replace(rl.split('=')[0],rl.split('=')[1])    \n                    else :\n                        if elem.has_key(r[2]) :\n                            extracted_value = elem.get(r[2])\n                            if(extracted_value is not None) :\n                                break;\n\n            if(r[0] == 'value') :\n                if(r[1].startswith('delimit')) :\n                    sp = r[2].split('##')\n                    pos = 0\n                    dlim = r[2] \n                    if(len(sp) ==2):\n                        pos = int(sp[1])\n                        dlim = sp[0]\n                        \n                    s = ''    \n                    if(r[1].endswith('solo')) :    \n                        current = field.contents\n                        for c in current :\n                            if c is not None and str(type(c)).find('NavigableString') > 0:\n                                s =  s + ' ' + c.strip()    \n                    else :\n                        s = ''.join(field.findAll(text=True))    \n                    s = s.strip().lower().split(dlim)\n                    \n                    if(len(s) > 1):\n                        extracted_value=s[pos].strip()\n                    elif(len(s) == 1) :     \n                        extracted_value=s[0].strip()\n                if(r[1] == 'solo') :\n                    current = field.contents\n                    extracted_value = ''\n                    for c in current :\n                        if c is not None and str(type(c)).find('NavigableString') > 0:\n                            extracted_value =  extracted_value + ' ' + c.strip()\n                if(r[1] == 'equals') :\n                    s = str(''.join(force_unicode(field.findAll(text=True)))).strip().upper().replace(' ', '')\n                    if(s == r[2].strip().upper().replace(' ', '')):\n                        extracted_value='True'\n                    else :        \n                        extracted_value='False'\n                if(r[1] == 'nequals') :\n                    s = str(''.join(force_unicode(field.findAll(text=True)))).strip().upper().replace(' ', '')\n                    if(s == r[2].strip().upper().replace(' ', '')):\n                        extracted_value='False'\n                    else :        \n                        extracted_value='True'\n                if(r[1] == 'containsTrue') :\n                    s = str(''.join(force_unicode(field.findAll(text=True)))).strip().upper().replace(' ', '')\n                    if(s.find(r[2].strip().upper().replace(' ', '')) >=0 ):\n                        extracted_value='True'\n                    else :        \n                        extracted_value='False'        \n                if(r[1] == 'containsFalse') :\n                    s = str(''.join(force_unicode(field.findAll(text=True)))).strip().upper().replace(' ', '')\n                    if(s.find(r[2].strip().upper().replace(' ', '')) >=0 ):\n                        extracted_value='False'\n                    else :        \n                        extracted_value='True'        \n        \n        if(exclusion_rule != None):\n            r = exclusion_rule.split('_____')\n            if len(r) == 3 :\n                if(r[1] == 'startswith'):\n                    if(extracted_value.lower().startswith(r[2].lower())):\n                        extracted_value = ''\n        \n        return extracted_value                \n            \n    def price_clean_up(self,price):\n        new_price = re.sub(r'[^0-9\\.\\,]', '',price )\n        pattern = re.compile('[0-9\\.\\,]+\\,[0-9][0-9]$')\n        if( pattern.match(new_price) is not None  ):\n            new_price = new_price[0:new_price.rfind(',')] + \".\" + new_price[new_price.find(',')+1:]\n        else :\n            new_price = re.sub(r'[^0-9\\.]', '',new_price )\n        if re.sub(r'[^0-9\\.\\,]', '',new_price ).strip() == 0:\n            return ''   \n        return new_price\n\n    def clean_image_url(self,web_url,image_url):\n        image_url = image_url.strip()\n        web_url = web_url.strip()\n        if(image_url.startswith('/')) :\n            web_url = web_url.replace('http://' , '')\n            image_url = web_url[:web_url.find('/')] + image_url\n        if not image_url.startswith('http:'):\n            image_url = 'http://' + image_url\n        return image_url\n    \n    \n    def identify_data_regions(self, soup, vendor_wrapper):\n        for s in soup('script') :\n            s.extract()\n    \n        comments = soup.findAll(text=lambda text:isinstance(text, Comment))\n        for s in comments :\n            s.extract()\n                \n        self.stlid = 0\n        res_map = {}        \n        \n        learned_attribute_list = LearnedAttribute.objects.filter(learning_wrapper = vendor_wrapper)\n        attrib_map =  AttributeMapping.objects.filter(learning_wrapper = vendor_wrapper)\n        \n        self.unique_map={}\n\n        if len(attrib_map) >0 and attrib_map[0] is not None and attrib_map[0].mapping is not None:\n            for ln in attrib_map[0].mapping.split('\\n'):\n                s = ln.split('\\t')\n                if len(s) == 2:\n                    self.unique_map[s[0]] = s[1]\n        \n        for learned_attribute in learned_attribute_list:    \n            self.list=[]\n            self.pathinfo=[]\n            self.apply_wrapper(soup, int(learned_attribute.depth) )\n            matched_path = self.find_best_match(learned_attribute.path,learned_attribute.attribute.name)\n            result = None\n            if(matched_path is None):\n                continue\n            for matched in matched_path[0] : \n                extracted_node = self.extract_field(soup, matched)\n\n                if result is None:\n                    result = ''\n                if(learned_attribute.attribute.name == 'styloot_size'):\n                    extract = None\n                    if learned_attribute.rule is not None :\n                        for ext_rule in learned_attribute.rule.split(',,,'):\n                            if(extract is None):\n                                  extract = self.apply_extract_size(extracted_node, ext_rule)\n                            else :\n                               extract = self.apply_extract_size(extract, ext_rule)\n                    else :\n                        extract = self.apply_extract_size(extracted_node, learned_attribute.rule)\n                    if extract is not None :\n                        if(result.strip() == '' or learned_attribute.rule != 'stop' ):\n                            result = result + ' ' + extract\n                elif(result.strip() == '' or learned_attribute.attribute.name != 'styloot_image'):\n                    extract = None\n                    if learned_attribute.rule is not None :\n                        for ext_rule in learned_attribute.rule.split(',,,'):\n                            if(extract is None):\n                                  extract = self.apply_extract_rule(extracted_node, ext_rule)\n                            else :\n                               extract = self.apply_extract_rule(extract, ext_rule)\n                    else :\n                        extract = self.apply_extract_rule(extracted_node, learned_attribute.rule)\n                    if extract is not None :\n                        if(result.strip() == '' or learned_attribute.rule != 'stop' ):\n                            result = result + ' ' + extract\n            if(result is not None and result.strip() != '' and float(matched_path[1]) < float(.1) ) :\n                if  ( learned_attribute.attribute.name not in  res_map.keys()) or ( float(res_map[learned_attribute.attribute.name][1]) >  float(matched_path[1] )  ) :\n                    if (learned_attribute.attribute.name == 'styloot_mrp' or learned_attribute.attribute.name == 'styloot_price'):\n                        prs = self.price_clean_up(result.strip())\n                        if(prs.startswith('.') == False):\n                            try:\n                                val = float(prs)\n                                if val == 0.0:\n                                    prs = ''\n                                res_map[learned_attribute.attribute.name] = [prs,matched_path[1]]\n                            except Exception as e:\n                                pass\n                    elif learned_attribute.attribute.name == 'styloot_size':\n                        #print '********'\n                        res_map[learned_attribute.attribute.name] = [result.strip(),matched_path[1]] \n                    else:\n                        res_map[learned_attribute.attribute.name] = [result.strip(),matched_path[1]]\n           #print learned_attribute.attribute.name,result,extract\n\n        if('styloot_image' in res_map.keys() ):\n            res_map['styloot_image'][0] = self.clean_image_url(vendor_wrapper.vendor.url , res_map['styloot_image'][0])\n                        \n        return res_map\n    \nif __name__==\"__main__\":\n\n    # Get Test Page\n    scrape_result = web_utils.get('http://www.shopbop.com/open-back-ruched-dress-zac/vp/v=1/845524441954344.htm?folderID=2534374302063518&fm=other-shopbysize-viewall&colorId=11907')\n    soup = BeautifulSoup(scrape_result.content, convertEntities=BeautifulSoup.HTML_ENTITIES)\n    \n    gp = GenericParser()\n    vw = VendorWrapper.objects.filter(source__name__startswith='')[0]\n    res_map = gp.identify_data_regions(soup,vw)\n    for k in res_map.keys():\n        print k + \"\\t\" + res_map[k][0] \n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -569,7 +644,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -584,8 +659,8 @@
 						"selection":
 						[
 							[
-								5182,
-								5182
+								5178,
+								5178
 							]
 						],
 						"settings":
@@ -602,72 +677,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "vim/admin.py",
-					"settings":
-					{
-						"buffer_size": 85,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								84,
-								84
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app_name/templates/base.html",
-					"settings":
-					{
-						"buffer_size": 428,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								314,
-								314
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "scripts/vimeo.py",
 					"settings":
 					{
-						"buffer_size": 2817,
+						"buffer_size": 3284,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2759,
-								2759
+								3026,
+								3026
 							]
 						],
 						"settings":
@@ -677,39 +698,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 912.0,
+						"translation.y": 1195.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "scripts/crawler.py",
-					"settings":
-					{
-						"buffer_size": 1066,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								281,
-								253
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 31.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
+					"buffer": 2,
 					"file": "vim/models.py",
 					"settings":
 					{
@@ -720,8 +715,8 @@
 						"selection":
 						[
 							[
-								458,
-								458
+								341,
+								341
 							]
 						],
 						"settings":
@@ -735,24 +730,248 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "scripts/__init__.py",
+					"buffer": 3,
+					"file": "requirements.txt",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 20,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								20,
+								20
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "urls.py",
+					"settings":
+					{
+						"buffer_size": 1067,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								516,
+								516
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "vim/api.py",
+					"settings":
+					{
+						"buffer_size": 894,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								582,
+								582
+							]
+						],
+						"settings":
+						{
+							"auto_name": "p",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "vim/templates/base.html",
+					"settings":
+					{
+						"buffer_size": 933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								433,
+								433
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "vim/templates/home.html",
+					"settings":
+					{
+						"buffer_size": 568,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								177
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "vim/static/app.js",
+					"settings":
+					{
+						"buffer_size": 1019,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								532,
+								532
+							]
+						],
+						"settings":
+						{
+							"auto_name": "$(function(){",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 779.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "vim/static/style.css",
+					"settings":
+					{
+						"buffer_size": 1654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1563,
+								1563
+							]
+						],
+						"settings":
+						{
+							"auto_name": "a",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 399.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/media/Personal/Work/Styloot/fashiondb/templates/recommend/review.html",
+					"settings":
+					{
+						"buffer_size": 4393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1752,
+								1752
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 912.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/media/Personal/Work/Styloot/fashiondb/static/js/styloot/styloot.recommend.js",
+					"settings":
+					{
+						"buffer_size": 2065,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								282,
+								282
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -769,7 +988,7 @@
 	},
 	"input":
 	{
-		"height": 35.0
+		"height": 52.0
 	},
 	"layout":
 	{
