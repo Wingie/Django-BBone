@@ -70,6 +70,7 @@ function spec(arg){
 	   q = {};
 	   $("#is_pay, #has_videos, #has_staff_pick").removeClass("btn-success");
 	   $("#all").addClass("btn-success");
+	   items.retrieve(q);
 	   return;
 	}
 
