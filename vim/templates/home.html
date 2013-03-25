@@ -6,67 +6,27 @@
 
 <h1> VimeoDB </h1>
 
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
-<p>fdfd</p>
+<div id="searchResults" class="searchResultsHolder" height="900px">
+<ul class="searchDisplay"></ul>
+</div>
+
+<script id="usrTemplate" type="text/template">
+    <%=display_name%>
+</script>
+
+{% endblock %}
+
+{% block scriptfoot %}
+
+<script type="text/javascript">
+var items = new app.collection.usrList();
+// var usrView = new app.collection.usrListView({collection:items});
+
+$(document).ready(function () {
+  items.retrieve();
+});
+
+
+</script>
 
 {% endblock %}

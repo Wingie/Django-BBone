@@ -23,13 +23,16 @@ def vimeo_api(url):
 def get_first_staffpick_or_none(usr):
     url = '/api/rest/v2?format=json&method=vimeo.videos.getAll&user_id=%s' % usr
     response =  vimeo_api(url)
-    total = response['videos']['total']
-    print "SFscan~",total
-    for vid in response['videos']['video']:
-        u = "http://vimeo.com/channels/staffpicks/"+vid['id']
-        r = requests.get(u)
-        if r.status_code == 200:
-            return u
+    try:
+        total = response['videos']['total']
+        print "SFscan~",total
+        for vid in response['videos']['video']:
+            u = "http://vimeo.com/channels/staffpicks/"+vid['id']
+            r = requests.get(u)
+            if r.status_code == 200:
+                return u
+    except Exception as e:
+        return '0'    
     return '0'
 
 def usr_info(usr):
@@ -75,7 +78,7 @@ if __name__ == '__main__':
     with open('usrlist_7288.json', 'rb') as fp:
         data = json.load(fp)
         i = 1
-        for user_id in data[0:]: #
+        for user_id in data[1326:]: #
             print i
             print create_usr(user_id)
             i+=1
