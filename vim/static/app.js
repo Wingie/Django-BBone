@@ -51,9 +51,7 @@ app.collection.usrList = Backbone.Collection.extend({
 app.collection.usrListItemView = Backbone.View.extend({
 
     tagName: "li",
-
     template: _.template($("#usrTemplate").html()),
-
     render: function (eventName) {
         $(this.el).html(this.template(this.model.toJSON()));
         return this;
