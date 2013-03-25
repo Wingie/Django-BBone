@@ -2,7 +2,7 @@ import urllib2
 from oauth_hook import OAuthHook
 import requests
 import json
-from proj.vim.models import VimeoUser
+from vim.models import VimeoUser
 import time
 OAuthHook.consumer_key = '489e803878ab0be44d34b969d62a7b36a3129250'
 OAuthHook.consumer_secret = '43b7be9049034688351bdf5e8568d757949f93da'

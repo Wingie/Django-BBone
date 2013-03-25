@@ -22,5 +22,5 @@ def Search(request):
     if request.GET.get('has_videos'):
         results = results.filter(has_videos=True)        
 
-    return serialize_object(request,{'params':dict(request.GET),'results':results[:100],'count':results.count()})
+    return SerializeOrRender(request,{'params':dict(request.GET),'results':results[:100],'count':results.count()})
 

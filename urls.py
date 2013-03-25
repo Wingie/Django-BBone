@@ -2,7 +2,7 @@ from django.conf.urls.defaults import *
 from django.views.generic.simple import direct_to_template
 from django.contrib import admin
 import settings
-from proj.vim.api import Search
+from vim.api import Search
 
 admin.autodiscover()
 
