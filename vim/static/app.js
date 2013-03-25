@@ -19,13 +19,17 @@ app.collection.usrList = Backbone.Collection.extend({
     },
     retrieve: function (q) {
 
+        strng = $('#search-qry').val().replace(" ",",");
         this.qry = "?";
         self = this;
+
+        if (strng != "")
+          self.qry = self.qry + "q=" + strng
 
         _.each(q, function (val, key) {
             if (val) {
                 self.qry = self.qry + "&" + key + "=1";
-                console.log(self.qry);
+                // console.log(self.qry);
             }
         });
 
