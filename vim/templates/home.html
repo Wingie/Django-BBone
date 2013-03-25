@@ -4,9 +4,28 @@
 
 {% block primary %}
 
-<h1> VimeoDB </h1>
-<div id="searchField"></div>
+<!--<h1> VimeoDB </h1>-->
 
+<div id="searchField">
+
+<div class="input-append">
+	  <input type="text" class="input-xlarge" pl>
+	  <button type="submit" class="btn">Search</button>
+</div>
+<div>
+	  <p id="filter">
+	 
+	 <div class="btn-group">
+	
+	<button class="btn btn-primary btn-success" type="button" id="all" onClick="spec('all');">All</button>
+	<button class="btn btn-primary" type="button" id="is_pay" onClick="spec('is_pay');">Paying</button>
+	<button class="btn btn-primary" type="button" id="has_videos" onClick="spec('has_videos');">Uploaded</button>
+	<button class="btn btn-primary" type="button" id="has_staff_pick" onClick="spec('has_staff_pick');">Staff Pick</button>
+	</div>
+	  </p>
+</div>
+</div>
+<hr class="embosed" />
 <div id="count">Loading..</div>
 
 <div id="searchResults" class="searchResultsHolder" height="900px">
@@ -42,7 +61,29 @@
 {% block scriptfoot %}
 
 <script type="text/javascript">
+
 var items = new app.collection.usrList();
+var q = {};
+
+function spec(arg){
+	if(arg=='all'){
+	   q = {};
+	   $("#is_pay, #has_videos, #has_staff_pick").removeClass("btn-success");
+	   $("#all").addClass("btn-success");
+	   return;
+	}
+
+	if(arg in q){
+	   q[arg] = !q[arg];
+	   $("#"+arg).toggleClass("btn-success");
+	}else{
+                q[arg] =true;
+                $("#"+arg).addClass("btn-success");
+                $("#all").removeClass("btn-success");
+	}
+	// console.log(q);
+	items.retrieve(q);
+}
 
 $(document).ready(function () {
   items.retrieve();

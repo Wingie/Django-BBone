@@ -8,20 +8,31 @@ app.collection.usrList = Backbone.Collection.extend({
 	initialize: function(){
 		this.count = 0;
 		this.id = $('#searchResults').children(".searchDisplay");
+                          this.qry = "";
 	},
 	 url : function(){
-      		return '/api/search/';
+      		return '/api/search/'+this.qry;
     	},
     	parse : function(response){
 	      this.count = response.count;
 	      return response.results;  
     	},
-    	retrieve: function(){
-    		self = this;
+    	retrieve: function(q){
+    		
+                          this.qry = "?";
+                          self = this; 
 
+                          _.each(q,function(val,key){
+                                if(val){
+                                    self.qry=self.qry+"&"+key+"=1";
+                                    console.log(self.qry);
+                                }
+                          });
+                          
+                         self.id.children().remove();
+                         $('#count').html("Loading...");
     		this.fetch({success:function(){   
-                                                                            $('#count').html(self.count+" Results");
-    						self.id.children().remove();
+                                                                            $('#count').html(self.count+" Results");	
 			    			self.each(function(u){
 			    				self.id.append(new app.collection.usrListItemView({model:u}).render().el);
 			    			});
