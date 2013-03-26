@@ -37,25 +37,28 @@ def get_first_staffpick_or_none(usr):
 
 def usr_info(usr):
     res = {}
-    url = '/api/rest/v2?format=json&method=vimeo.people.getInfo&user_id=%s' % usr
-    response =  vimeo_api(url)
-    res['user_name']  = response['person']['username']
-    if response['person']['username'] == "user17234915":
-        return None ## wtf. Vimeo returns my oauth account details instead of a 404 for authenticated calls.
-    res['display_name']  = response['person']['display_name']
-    res['page_url']  =response['person']['profileurl']
-    res['is_plus'] = response['person']['is_plus']
-    res['is_pro'] = response['person']['is_pro']
-    res['is_staff'] = response['person']['is_staff']
-    res['number_of_videos'] = response['person']['number_of_videos']
-    res['staffpick'] = get_first_staffpick_or_none(res['user_name'])
-    # print  response['person']['number_of_videos']
-    return res
+    try:
+        url = '/api/rest/v2?format=json&method=vimeo.people.getInfo&user_id=%s' % usr
+        response =  vimeo_api(url)
+        res['user_name']  = response['person']['username']
+        if response['person']['username'] == "user17234915":
+            return None ## wtf. Vimeo returns my oauth account details instead of a 404 for authenticated calls.
+        res['display_name']  = response['person']['display_name']
+        res['page_url']  =response['person']['profileurl']
+        res['is_plus'] = response['person']['is_plus']
+        res['is_pro'] = response['person']['is_pro']
+        res['is_staff'] = response['person']['is_staff']
+        res['number_of_videos'] = response['person']['number_of_videos']
+        res['staffpick'] = get_first_staffpick_or_none(res['user_name'])
+        # print  response['person']['number_of_videos']
+        return res
+    except Exception:
+        return None
 
 def create_usr(usr):
     data = usr_info(usr)
     if data is None:
-        return "user not exist"
+        return "user not exist/Error"
     if VimeoUser.objects.filter(user_name=data['user_name']).count() != 0:
         return "User Already Exists."
     else:
@@ -71,16 +74,16 @@ def create_usr(usr):
         usr.save()
         return usr
 
-# export PYTHONPATH='/home/wingston/local/py/vimeo-py/';export DJANGO_SETTINGS_MODULE='proj.settings'
+# export PYTHONPATH='/home/wingston/local/py/vimeo-py/proj';export DJANGO_SETTINGS_MODULE='settings'
 if __name__ == '__main__':
     # print  "**",create_usr('robertoajovalasit')
     # print  "**",get_first_staffpick_or_none('eterea')
     with open('usrlist_7288.json', 'rb') as fp:
         data = json.load(fp)
         i = 1
-        for user_id in data[1792:]: # 120
+        for user_id in data[3284:]: # 850
             print i
             print create_usr(user_id)
             i+=1
-            time.sleep(22+i%5)
+            time.sleep(10+i%5)
         
