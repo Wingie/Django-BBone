@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"Ex",
+				"Exception"
+			],
+			[
+				"ex",
+				"except"
+			],
+			[
 				"apn",
 				"append"
 			],
@@ -171,7 +179,7 @@
 			"file": "settings.py",
 			"settings":
 			{
-				"buffer_size": 6093,
+				"buffer_size": 6207,
 				"line_ending": "Unix"
 			}
 		},
@@ -179,7 +187,7 @@
 			"file": "scripts/vimeo.py",
 			"settings":
 			{
-				"buffer_size": 3284,
+				"buffer_size": 3391,
 				"line_ending": "Unix"
 			}
 		},
@@ -195,7 +203,7 @@
 			"file": "requirements.txt",
 			"settings":
 			{
-				"buffer_size": 20,
+				"buffer_size": 75,
 				"line_ending": "Unix"
 			}
 		},
@@ -203,7 +211,7 @@
 			"file": "urls.py",
 			"settings":
 			{
-				"buffer_size": 1067,
+				"buffer_size": 1062,
 				"line_ending": "Unix"
 			}
 		},
@@ -211,7 +219,7 @@
 			"file": "vim/api.py",
 			"settings":
 			{
-				"buffer_size": 894,
+				"buffer_size": 895,
 				"line_ending": "Unix",
 				"name": "p"
 			}
@@ -228,7 +236,7 @@
 			"file": "vim/templates/home.html",
 			"settings":
 			{
-				"buffer_size": 2621,
+				"buffer_size": 3019,
 				"line_ending": "Unix"
 			}
 		},
@@ -236,7 +244,7 @@
 			"file": "vim/static/app.js",
 			"settings":
 			{
-				"buffer_size": 1146,
+				"buffer_size": 1603,
 				"line_ending": "Unix",
 				"name": "$(function(){"
 			}
@@ -245,7 +253,7 @@
 			"file": "vim/static/style.css",
 			"settings":
 			{
-				"buffer_size": 3750,
+				"buffer_size": 3754,
 				"line_ending": "Unix",
 				"name": "a"
 			}
@@ -263,6 +271,23 @@
 			"settings":
 			{
 				"buffer_size": 2065,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "var Table = {\n    \"credit\": {\n        \"link\": \"site link\", \n        \"logoUrl\": \"logo url\", \n        \"message\": \"message\"\n    }, \n    \"groups\": [\n        {\n            \"labels\": [\n                {\n                    \"name\": \"Western Conference\", \n                    \"type\": \"conference\"\n                }, \n                {\n                    \"name\": \"Central Division\", \n                    \"type\": \"division\"\n                }\n            ], \n            \"standings\": [\n                {\n                    \"stats\": [\n                        {\n                            \"name\": \"gp\", \n                            \"value\": 20\n                        }, \n                        {\n                            \"name\": \"w\", \n                            \"value\": 17\n                        }, \n                        {\n                            \"name\": \"l\", \n                            \"value\": 0\n                        }, \n                        {\n                            \"name\": \"gf\", \n                            \"value\": 64\n                        }, \n                        {\n                            \"name\": \"ga\", \n                            \"value\": 37\n                        }, \n                        {\n                            \"name\": \"gd\", \n                            \"value\": 27\n                        }, \n                        {\n                            \"name\": \"pts\", \n                            \"value\": 37\n                        }\n                    ], \n                    \"team\": {\n                        \"id\": 12345, \n                        \"link\": \"team link\", \n                        \"name\": \"team name\", \n                        \"shortName\": \"team\"\n                    }\n                },\n            ]\n        }]\n    }\n",
+			"settings":
+			{
+				"buffer_size": 1780,
+				"line_ending": "Unix",
+				"name": "var Table = {"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 286,
 				"line_ending": "Unix"
 			}
 		}
@@ -644,7 +669,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -652,15 +677,15 @@
 					"file": "settings.py",
 					"settings":
 					{
-						"buffer_size": 6093,
+						"buffer_size": 6207,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5176,
-								5176
+								1013,
+								1013
 							]
 						],
 						"settings":
@@ -670,7 +695,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2640.0,
+						"translation.y": 456.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -680,15 +705,15 @@
 					"file": "scripts/vimeo.py",
 					"settings":
 					{
-						"buffer_size": 3284,
+						"buffer_size": 3391,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3157,
-								3157
+								2911,
+								2911
 							]
 						],
 						"settings":
@@ -698,7 +723,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 853.0,
+						"translation.y": 1140.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -715,8 +740,8 @@
 						"selection":
 						[
 							[
-								339,
-								339
+								335,
+								335
 							]
 						],
 						"settings":
@@ -734,15 +759,15 @@
 					"file": "requirements.txt",
 					"settings":
 					{
-						"buffer_size": 20,
+						"buffer_size": 75,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20,
-								20
+								24,
+								24
 							]
 						],
 						"settings":
@@ -760,15 +785,15 @@
 					"file": "urls.py",
 					"settings":
 					{
-						"buffer_size": 1067,
+						"buffer_size": 1062,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								516,
-								516
+								150,
+								150
 							]
 						],
 						"settings":
@@ -778,7 +803,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 114.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -788,15 +813,15 @@
 					"file": "vim/api.py",
 					"settings":
 					{
-						"buffer_size": 894,
+						"buffer_size": 895,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								580,
-								580
+								804,
+								804
 							]
 						],
 						"settings":
@@ -824,8 +849,8 @@
 						"selection":
 						[
 							[
-								431,
-								431
+								427,
+								427
 							]
 						],
 						"settings":
@@ -845,15 +870,15 @@
 					"file": "vim/templates/home.html",
 					"settings":
 					{
-						"buffer_size": 2621,
+						"buffer_size": 3019,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								268,
-								268
+								92,
+								92
 							]
 						],
 						"settings":
@@ -861,7 +886,7 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 19.0,
+						"translation.y": 513.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -871,15 +896,15 @@
 					"file": "vim/static/app.js",
 					"settings":
 					{
-						"buffer_size": 1146,
+						"buffer_size": 1603,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								650,
-								650
+								1235,
+								1235
 							]
 						],
 						"settings":
@@ -890,7 +915,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 294.0,
+						"translation.y": 399.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -900,15 +925,15 @@
 					"file": "vim/static/style.css",
 					"settings":
 					{
-						"buffer_size": 3750,
+						"buffer_size": 3754,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3727,
-								3727
+								2022,
+								2022
 							]
 						],
 						"settings":
@@ -919,7 +944,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1691.0,
+						"translation.y": 745.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -947,7 +972,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 836.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -964,8 +989,8 @@
 						"selection":
 						[
 							[
-								280,
-								280
+								276,
+								276
 							]
 						],
 						"settings":
@@ -973,6 +998,60 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"settings":
+					{
+						"buffer_size": 1780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1780,
+								1780
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var Table = {",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 513.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								281,
+								281
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
